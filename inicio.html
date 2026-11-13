@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,33 +20,55 @@
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exile&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exile&display=swap"
+      rel="stylesheet"
+    />
     <!-- Fim Fontes -->
-
-
 
     <link rel="stylesheet" href="inicio.css" />
   </head>
 
-
-
   <body>
+<div class="Secao_Superior_doSite">
 
+<!--HEADER-->
     <header class="cabecalho">
-      <a href="index.html" class="logo">MEU PROJETO</a>
+      <h1 class="titulo-header">POKEBAG</h1>
 
-      <nav>
-        <ul class="menu">
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#recursos">Recursos</a></li>
-        </ul>
-      </nav>
-
-      <a href="#login" class="botao-cta">Começar</a>
+      <a href="index.html" class="logo">
+        <img
+          src="images/Captura de tela 2026-11-13 111943.png"
+          alt="Logo_POKEBAG"
+        />
+      </a>
     </header>
 
+    
+
+<!-- BARRA DE NAVEGAÇÃO -->
+    <nav class="cabecalho2">
+      <div class="nav-esquerda">
+        <button class="btn-menu" aria-label="Abrir menu">&#9776;</button>
+
+        <ul class="menu2">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#pokedex">Pokedex</a></li>
+          <li><a href="#competitivo">Competitivo</a></li>
+          <li><a href="#simulador">Simulador</a></li>
+        </ul>
+      </div>
+
+      <div class="busca-container">
+        <input type="search" class="campo-busca" placeholder="Pesquisar" />
+      </div>
+    </nav>
+
+</div>
+
+
+    <script src="inicio.js"></script>
   </body>
 </html>
